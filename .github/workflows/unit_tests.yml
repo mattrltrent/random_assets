@@ -15,11 +15,3 @@ jobs:
       
       - name: Pass Check
         run: echo "Passing vibe check!"
-
-      - name: Generate Badge
-        uses: emibcn/badge-action@v2.0.2
-        with:
-          label: 'Vibe'
-          status: 'Checked'
-          color: '#333333, #66F966' # Hex equivalent of rgb(102, 249, 102)
-          path: '.github/badges/vibe-check-badge.svg'
